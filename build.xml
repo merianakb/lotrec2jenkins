@@ -10,6 +10,12 @@
 <project name="LoTREC" default="default" basedir=".">
     <description>Builds, tests, and runs the project LoTREC.</description>
     <import file="nbproject/build-impl.xml"/>
+	<dependency>
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.11</version>
+  <scope>test</scope>
+</dependency>
     <!--
 
     There exist several targets which are by default empty and which can be 
